@@ -29,9 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
                double num1 = Double.parseDouble(txtbNum1.getText().toString());
                double num2 = Double.parseDouble(txtbNum2.getText().toString());
-               double result = num1 + num2;
 
-               txtResult.setText(String.valueOf(result));
+               txtResult.setText(String.valueOf(num1+num2));
 
             }
 

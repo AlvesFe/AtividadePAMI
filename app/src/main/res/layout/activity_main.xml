@@ -20,30 +20,6 @@
         app:layout_constraintVertical_bias="0.274" />
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txtResult"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalc"
-        app:layout_constraintVertical_bias="0.124" />
-
-    <Button
-        android:id="@+id/btnCalc"
-        android:layout_width="135dp"
-        android:layout_height="58dp"
-        android:text="@string/btnCalculate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtbNum2"
-        app:layout_constraintVertical_bias="0.081" />
-
-    <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,14 +33,40 @@
         app:layout_constraintVertical_bias="0.4" />
 
     <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtResult"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalc"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
         android:id="@+id/txtResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/btnCalc"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintVertical_bias="0.48" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="135dp"
+        android:layout_height="58dp"
+        android:text="@string/btnCalculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtbNum2"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <!-- Imagem colocada no lugar da action bar -->
 
     <ImageView
         android:id="@+id/imageView4"
