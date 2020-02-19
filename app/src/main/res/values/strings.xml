@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Atividade PAM I</string>
+    <string name="txtNumberOne">Numero 1</string>
+    <string name="txtNumberTwo">Numero 2</string>
+    <string name="btnCalculate">Calcular</string>
+    <string name="txtResult">Resultado:</string>
+</resources>
