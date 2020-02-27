@@ -6,6 +6,4 @@
     <string name="txtResult">Result:</string>
     <string name="txtHintNum1">Type here the first value</string>
     <string name="txtHintNum2">Type here the second value</string>
-    <string name="langEN">English</string>
-    <string name="langPT">Portuguese</string>
 </resources>
