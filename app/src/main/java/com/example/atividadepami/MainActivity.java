@@ -8,12 +8,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void Calcular (View v){
 
         //CRIANDO OBJETOS
         final EditText txtbNum1 = findViewById(R.id.txtbNum1);
@@ -21,21 +26,12 @@ public class MainActivity extends AppCompatActivity {
         final TextView txtResult = findViewById(R.id.txtResult);
         Button btnCalc = findViewById(R.id.btnCalc);
 
-        //EVENTO DO BOTÃO CALCULAR
-        btnCalc.setOnClickListener(new Button.OnClickListener(){
+        //EXECUÇÂO DO CALCULO
+        double num1 = Double.parseDouble(txtbNum1.getText().toString());
+        double num2 = Double.parseDouble(txtbNum2.getText().toString());
 
-            @Override
-            public  void onClick(View v) {
-
-               double num1 = Double.parseDouble(txtbNum1.getText().toString());
-               double num2 = Double.parseDouble(txtbNum2.getText().toString());
-
-               txtResult.setText(String.valueOf(num1+num2));
-
-            }
-
-
-        });
+        //EXIBIÇÂO DO RESULTADO
+        txtResult.setText(String.valueOf(num1+num2));
     }
 
 }

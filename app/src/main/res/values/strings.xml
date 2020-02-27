@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Atividade PAM I</string>
-    <string name="txtNumberOne">Numero 1</string>
-    <string name="txtNumberTwo">Numero 2</string>
-    <string name="btnCalculate">Calcular</string>
-    <string name="txtResult">Resultado:</string>
+    <string name="txtNumberOne">Number 1</string>
+    <string name="txtNumberTwo">Number 2</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="txtResult">Result:</string>
+    <string name="txtHintNum1">Type here the first value</string>
+    <string name="txtHintNum2">Type here the second value</string>
+    <string name="langEN">English</string>
+    <string name="langPT">Portuguese</string>
 </resources>

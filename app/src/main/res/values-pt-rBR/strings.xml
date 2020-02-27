@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atividade PAM I</string>
+    <string name="txtNumberOne">Número 1</string>
+    <string name="txtNumberTwo">Número 2</string>
+    <string name="btnCalculate">Calcular</string>
+    <string name="txtResult">Resultado:</string>
+    <string name="txtHintNum1">Digite aqui o primeiro número</string>
+    <string name="txtHintNum2">Digite aqui o segundo número</string>
+    <string name="langEN">Inglês</string>
+    <string name="langPT">Português</string>
+</resources>
